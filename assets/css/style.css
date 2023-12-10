@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top right, red, orange);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: rebeccapurple;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900;
+  align-items: center;
+}
+
+.navbar {
+  height: 100px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items ul li {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.active {
+  color: green;
+  font-weight: 900 !important;
+}
+
+/* About section starts */
+.about-section {
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(255, 170, 0);
+  padding:50px;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.row .col {
+    width: 500px;
+}
+
+.row .col p{
+
+    margin-top: 20px;
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    
+}
+
+a{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+ 
+ 
